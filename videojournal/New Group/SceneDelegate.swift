@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  videojournal
 //
-//  Created by Tyler Thammavong on 5/5/23.
+//  Created by Tyler Thammavong
 //
 
 import UIKit
@@ -49,4 +49,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
+
 

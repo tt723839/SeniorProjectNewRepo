@@ -2,7 +2,7 @@
 //  videojournalUITestsLaunchTests.swift
 //  videojournalUITests
 //
-//  Created by Tyler Thammavong on 5/5/23.
+//  Created by Tyler Thammavong
 //
 
 import XCTest
