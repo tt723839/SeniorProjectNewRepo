@@ -20,6 +20,7 @@
 		0A9383C82A0604D400889890 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9383C72A0604D400889890 /* Services.swift */; };
 		0A9383D32A060C4D00889890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9383D12A060C4D00889890 /* LaunchScreen.storyboard */; };
 		0A9383D62A060C7C00889890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9383D42A060C7C00889890 /* Main.storyboard */; };
+		0A9383D92A06F93300889890 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9383D82A06F93300889890 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		0A9383C72A0604D400889890 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		0A9383D22A060C4D00889890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/video-journal-ios-main-2/video-journal/Storyboards/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		0A9383D52A060C7C00889890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/video-journal-ios-main-2/video-journal/Storyboards/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		0A9383D82A06F93300889890 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +111,9 @@
 			children = (
 				0A9383D02A060A3E00889890 /* Cells&Xib */,
 				0A9383CF2A0609E200889890 /* Storyboards */,
-				0A9383CE2A06057C00889890 /* New Group */,
-				0A9383CD2A06056000889890 /* Controllers */,
+				0A9383D72A06F8E900889890 /* AppDelegate */,
 				0A9383BD2A06018400889890 /* Help Functions */,
+				0A9383CD2A06056000889890 /* Controllers */,
 				0A9383902A0600BE00889890 /* ViewController.swift */,
 				0A9383952A0600C100889890 /* Assets.xcassets */,
 				0A93839A2A0600C100889890 /* Info.plist */,
@@ -174,17 +176,9 @@
 		0A9383CD2A06056000889890 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0A9383D82A06F93300889890 /* ProfileVC.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		0A9383CE2A06057C00889890 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				0A93838C2A0600BE00889890 /* AppDelegate.swift */,
-				0A93838E2A0600BE00889890 /* SceneDelegate.swift */,
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		0A9383CF2A0609E200889890 /* Storyboards */ = {
@@ -201,6 +195,15 @@
 			children = (
 			);
 			path = "Cells&Xib";
+			sourceTree = "<group>";
+		};
+		0A9383D72A06F8E900889890 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A93838C2A0600BE00889890 /* AppDelegate.swift */,
+				0A93838E2A0600BE00889890 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +341,7 @@
 				0A9383912A0600BE00889890 /* ViewController.swift in Sources */,
 				0A93838D2A0600BE00889890 /* AppDelegate.swift in Sources */,
 				0A9383C82A0604D400889890 /* Services.swift in Sources */,
+				0A9383D92A06F93300889890 /* ProfileVC.swift in Sources */,
 				0A9383C22A0601FA00889890 /* CustomCollectionViewLayout.swift in Sources */,
 				0A9383C42A06045300889890 /* MTImagePickerManager.swift in Sources */,
 				0A93838F2A0600BE00889890 /* SceneDelegate.swift in Sources */,
