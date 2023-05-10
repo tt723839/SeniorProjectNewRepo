@@ -87,8 +87,8 @@
 		0A9383F72A0B5B7100889890 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Bold.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		0A9383F82A0B5B7600889890 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		0A9383F92A0B5B7F00889890 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
-		0A9383FA2A0B5B8600889890 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		0A9383FD2A0B5BF100889890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		0A9383FF2A0B5C1A00889890 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,7 +272,7 @@
 				0A9383F72A0B5B7100889890 /* Inter-Bold.ttf */,
 				0A9383F82A0B5B7600889890 /* Inter-Medium.ttf */,
 				0A9383F92A0B5B7F00889890 /* Inter-Regular.ttf */,
-				0A9383FA2A0B5B8600889890 /* Inter-SemiBold.ttf */,
+				0A9383FF2A0B5C1A00889890 /* Inter-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
