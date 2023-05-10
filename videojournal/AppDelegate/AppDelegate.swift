@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  videojournal
 //
-//  Created by Tyler Thammavong
+//  Created by Tyler Thammavong 03/02/2023
 //
 
 import UIKit

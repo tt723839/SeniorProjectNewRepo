@@ -2,10 +2,11 @@
 //  Services.swift
 //  videojournal
 //
-//  Created by Tyler Thammavong 
+//  Created by Tyler Thammavong 03/02/2023
 //
 
 //image selector and video url processing functions in this file
+//navigation of tab bar in file as well
 
 import UIKit
 import AVFoundation
