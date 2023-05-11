@@ -1,5 +1,9 @@
-// Tyler Thammavong
-// 02/04/2023
+//
+//  ProfileVC.swift
+//  videojournal
+//
+//  Created by Tyler Thammavong 2/04/2023
+//
 
 import UIKit
 import AVKit

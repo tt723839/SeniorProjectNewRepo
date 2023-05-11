@@ -33,7 +33,6 @@
 		0A9383EE2A0B568B00889890 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9383ED2A0B568B00889890 /* Array+Ext.swift */; };
 		0A9383F02A0B56A600889890 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9383EF2A0B56A600889890 /* Bundle-Decodable.swift */; };
 		0A9383F22A0B56B800889890 /* UserDefaults+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9383F12A0B56B800889890 /* UserDefaults+Ext.swift */; };
-		0A9383FE2A0B5BF100889890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9383FD2A0B5BF100889890 /* Assets.xcassets */; };
 		0A9384012A0B5C9A00889890 /* ProfileVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384002A0B5C9A00889890 /* ProfileVideoCell.swift */; };
 		0A9384032A0B5CF200889890 /* ProfileVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9384022A0B5CF100889890 /* ProfileVideoCell.xib */; };
 		0A9384052A0C929800889890 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384042A0C929800889890 /* HomeVC.swift */; };
@@ -43,6 +42,7 @@
 		0A93840E2A0C939500889890 /* Utils+AllControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93840D2A0C939500889890 /* Utils+AllControllers.swift */; };
 		0A9384122A0C94DC00889890 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384112A0C94DC00889890 /* CameraVC.swift */; };
 		0A9384142A0C94EB00889890 /* PhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384132A0C94EB00889890 /* PhotoPreviewVC.swift */; };
+		0A9384162A0C959E00889890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9384152A0C959E00889890 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +96,6 @@
 		0A9383F72A0B5B7100889890 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Bold.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		0A9383F82A0B5B7600889890 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		0A9383F92A0B5B7F00889890 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
-		0A9383FD2A0B5BF100889890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Assets.xcassets"; sourceTree = "<group>"; };
 		0A9383FF2A0B5C1A00889890 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		0A9384002A0B5C9A00889890 /* ProfileVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVideoCell.swift; sourceTree = "<group>"; };
 		0A9384022A0B5CF100889890 /* ProfileVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileVideoCell.xib; path = "../../../../Downloads/video-journal-ios-main-2/video-journal/Cells&Xib/ProfileVideoCell.xib"; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		0A93840D2A0C939500889890 /* Utils+AllControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+AllControllers.swift"; sourceTree = "<group>"; };
 		0A9384112A0C94DC00889890 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		0A9384132A0C94EB00889890 /* PhotoPreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewVC.swift; sourceTree = "<group>"; };
+		0A9384152A0C959E00889890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Resources/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,8 +285,8 @@
 		0A9383F32A0B594400889890 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0A9384152A0C959E00889890 /* Assets.xcassets */,
 				0A9384082A0C932E00889890 /* Theme.xcassets */,
-				0A9383FD2A0B5BF100889890 /* Assets.xcassets */,
 				0A9383F42A0B595200889890 /* Fonts */,
 			);
 			path = Resources;
@@ -420,7 +420,7 @@
 				0A9383962A0600C100889890 /* Assets.xcassets in Resources */,
 				0A9384032A0B5CF200889890 /* ProfileVideoCell.xib in Resources */,
 				0A9384092A0C932E00889890 /* Theme.xcassets in Resources */,
-				0A9383FE2A0B5BF100889890 /* Assets.xcassets in Resources */,
+				0A9384162A0C959E00889890 /* Assets.xcassets in Resources */,
 				0A9383D62A060C7C00889890 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
