@@ -43,6 +43,10 @@
 		0A9384122A0C94DC00889890 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384112A0C94DC00889890 /* CameraVC.swift */; };
 		0A9384142A0C94EB00889890 /* PhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384132A0C94EB00889890 /* PhotoPreviewVC.swift */; };
 		0A9384162A0C959E00889890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9384152A0C959E00889890 /* Assets.xcassets */; };
+		0A9384182A0C971F00889890 /* StoryFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384172A0C971F00889890 /* StoryFirstCell.swift */; };
+		0A93841A2A0C972D00889890 /* StoryMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384192A0C972D00889890 /* StoryMainCell.swift */; };
+		0A93841C2A0C973E00889890 /* StoryFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A93841B2A0C973E00889890 /* StoryFirstCell.xib */; };
+		0A93841E2A0C974B00889890 /* StoryMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A93841D2A0C974B00889890 /* StoryMainCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,10 @@
 		0A9384112A0C94DC00889890 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		0A9384132A0C94EB00889890 /* PhotoPreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewVC.swift; sourceTree = "<group>"; };
 		0A9384152A0C959E00889890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		0A9384172A0C971F00889890 /* StoryFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFirstCell.swift; sourceTree = "<group>"; };
+		0A9384192A0C972D00889890 /* StoryMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMainCell.swift; sourceTree = "<group>"; };
+		0A93841B2A0C973E00889890 /* StoryFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoryFirstCell.xib; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Cells&Xib/StoryFirstCell.xib"; sourceTree = "<group>"; };
+		0A93841D2A0C974B00889890 /* StoryMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoryMainCell.xib; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Cells&Xib/StoryMainCell.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +258,10 @@
 				0A9384002A0B5C9A00889890 /* ProfileVideoCell.swift */,
 				0A9384022A0B5CF100889890 /* ProfileVideoCell.xib */,
 				0A9384062A0C92E000889890 /* HomeCell.swift */,
+				0A93841B2A0C973E00889890 /* StoryFirstCell.xib */,
+				0A9384172A0C971F00889890 /* StoryFirstCell.swift */,
+				0A9384192A0C972D00889890 /* StoryMainCell.swift */,
+				0A93841D2A0C974B00889890 /* StoryMainCell.xib */,
 			);
 			path = "Cells&Xib";
 			sourceTree = "<group>";
@@ -416,11 +428,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A93841E2A0C974B00889890 /* StoryMainCell.xib in Resources */,
 				0A9383D32A060C4D00889890 /* LaunchScreen.storyboard in Resources */,
 				0A9383962A0600C100889890 /* Assets.xcassets in Resources */,
 				0A9384032A0B5CF200889890 /* ProfileVideoCell.xib in Resources */,
 				0A9384092A0C932E00889890 /* Theme.xcassets in Resources */,
 				0A9384162A0C959E00889890 /* Assets.xcassets in Resources */,
+				0A93841C2A0C973E00889890 /* StoryFirstCell.xib in Resources */,
 				0A9383D62A060C7C00889890 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,10 +460,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9384182A0C971F00889890 /* StoryFirstCell.swift in Sources */,
 				0A9383E42A0B563700889890 /* ViewController+Ext.swift in Sources */,
 				0A9384142A0C94EB00889890 /* PhotoPreviewVC.swift in Sources */,
 				0A9383C02A0601DB00889890 /* CustomTabBar.swift in Sources */,
 				0A9383912A0600BE00889890 /* ViewController.swift in Sources */,
+				0A93841A2A0C972D00889890 /* StoryMainCell.swift in Sources */,
 				0A9384012A0B5C9A00889890 /* ProfileVideoCell.swift in Sources */,
 				0A9383E82A0B565700889890 /* String+Ext.swift in Sources */,
 				0A9384072A0C92E000889890 /* HomeCell.swift in Sources */,
