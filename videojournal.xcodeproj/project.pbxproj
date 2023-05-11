@@ -36,6 +36,11 @@
 		0A9383FE2A0B5BF100889890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9383FD2A0B5BF100889890 /* Assets.xcassets */; };
 		0A9384012A0B5C9A00889890 /* ProfileVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384002A0B5C9A00889890 /* ProfileVideoCell.swift */; };
 		0A9384032A0B5CF200889890 /* ProfileVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9384022A0B5CF100889890 /* ProfileVideoCell.xib */; };
+		0A9384052A0C929800889890 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384042A0C929800889890 /* HomeVC.swift */; };
+		0A9384072A0C92E000889890 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384062A0C92E000889890 /* HomeCell.swift */; };
+		0A9384092A0C932E00889890 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9384082A0C932E00889890 /* Theme.xcassets */; };
+		0A93840C2A0C936900889890 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93840B2A0C936900889890 /* Utils.swift */; };
+		0A93840E2A0C939500889890 /* Utils+AllControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93840D2A0C939500889890 /* Utils+AllControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +98,11 @@
 		0A9383FF2A0B5C1A00889890 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "../../../../../Downloads/video-journal-ios-main-2/video-journal/Resources/Fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		0A9384002A0B5C9A00889890 /* ProfileVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVideoCell.swift; sourceTree = "<group>"; };
 		0A9384022A0B5CF100889890 /* ProfileVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileVideoCell.xib; path = "../../../../Downloads/video-journal-ios-main-2/video-journal/Cells&Xib/ProfileVideoCell.xib"; sourceTree = "<group>"; };
+		0A9384042A0C929800889890 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		0A9384062A0C92E000889890 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		0A9384082A0C932E00889890 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Theme.xcassets; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Resources/Theme.xcassets"; sourceTree = "<group>"; };
+		0A93840B2A0C936900889890 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0A93840D2A0C939500889890 /* Utils+AllControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+AllControllers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +186,7 @@
 		0A9383BD2A06018400889890 /* Help Functions */ = {
 			isa = PBXGroup;
 			children = (
+				0A93840A2A0C935B00889890 /* Utils */,
 				0A9383DA2A0894FF00889890 /* Extensions */,
 				0A9383BE2A0601AA00889890 /* CustomTabBar */,
 				0A9383C52A06045C00889890 /* MTImagePickerManager */,
@@ -213,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				0A9383D82A06F93300889890 /* ProfileVC.swift */,
+				0A9384042A0C929800889890 /* HomeVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -231,6 +243,7 @@
 			children = (
 				0A9384002A0B5C9A00889890 /* ProfileVideoCell.swift */,
 				0A9384022A0B5CF100889890 /* ProfileVideoCell.xib */,
+				0A9384062A0C92E000889890 /* HomeCell.swift */,
 			);
 			path = "Cells&Xib";
 			sourceTree = "<group>";
@@ -266,6 +279,7 @@
 		0A9383F32A0B594400889890 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0A9384082A0C932E00889890 /* Theme.xcassets */,
 				0A9383FD2A0B5BF100889890 /* Assets.xcassets */,
 				0A9383F42A0B595200889890 /* Fonts */,
 			);
@@ -281,6 +295,15 @@
 				0A9383FF2A0B5C1A00889890 /* Inter-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0A93840A2A0C935B00889890 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0A93840B2A0C936900889890 /* Utils.swift */,
+				0A93840D2A0C939500889890 /* Utils+AllControllers.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +413,7 @@
 				0A9383D32A060C4D00889890 /* LaunchScreen.storyboard in Resources */,
 				0A9383962A0600C100889890 /* Assets.xcassets in Resources */,
 				0A9384032A0B5CF200889890 /* ProfileVideoCell.xib in Resources */,
+				0A9384092A0C932E00889890 /* Theme.xcassets in Resources */,
 				0A9383FE2A0B5BF100889890 /* Assets.xcassets in Resources */,
 				0A9383D62A060C7C00889890 /* Main.storyboard in Resources */,
 			);
@@ -421,10 +445,12 @@
 				0A9383912A0600BE00889890 /* ViewController.swift in Sources */,
 				0A9384012A0B5C9A00889890 /* ProfileVideoCell.swift in Sources */,
 				0A9383E82A0B565700889890 /* String+Ext.swift in Sources */,
+				0A9384072A0C92E000889890 /* HomeCell.swift in Sources */,
 				0A93838D2A0600BE00889890 /* AppDelegate.swift in Sources */,
 				0A9383EA2A0B566C00889890 /* UIColor+Ext.swift in Sources */,
 				0A9383DC2A0B55EB00889890 /* UIImageView+Extension.swift in Sources */,
 				0A9383C82A0604D400889890 /* Services.swift in Sources */,
+				0A9384052A0C929800889890 /* HomeVC.swift in Sources */,
 				0A9383F22A0B56B800889890 /* UserDefaults+Ext.swift in Sources */,
 				0A9383EC2A0B567D00889890 /* Storyboarded.swift in Sources */,
 				0A9383E02A0B561400889890 /* UIViewExt.swift in Sources */,
@@ -437,6 +463,8 @@
 				0A93838F2A0600BE00889890 /* SceneDelegate.swift in Sources */,
 				0A9383E62A0B564500889890 /* Extensions.swift in Sources */,
 				0A9383F02A0B56A600889890 /* Bundle-Decodable.swift in Sources */,
+				0A93840C2A0C936900889890 /* Utils.swift in Sources */,
+				0A93840E2A0C939500889890 /* Utils+AllControllers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
