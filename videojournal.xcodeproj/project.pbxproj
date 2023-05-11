@@ -41,6 +41,8 @@
 		0A9384092A0C932E00889890 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9384082A0C932E00889890 /* Theme.xcassets */; };
 		0A93840C2A0C936900889890 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93840B2A0C936900889890 /* Utils.swift */; };
 		0A93840E2A0C939500889890 /* Utils+AllControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93840D2A0C939500889890 /* Utils+AllControllers.swift */; };
+		0A9384122A0C94DC00889890 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384112A0C94DC00889890 /* CameraVC.swift */; };
+		0A9384142A0C94EB00889890 /* PhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384132A0C94EB00889890 /* PhotoPreviewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,8 @@
 		0A9384082A0C932E00889890 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Theme.xcassets; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Resources/Theme.xcassets"; sourceTree = "<group>"; };
 		0A93840B2A0C936900889890 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		0A93840D2A0C939500889890 /* Utils+AllControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+AllControllers.swift"; sourceTree = "<group>"; };
+		0A9384112A0C94DC00889890 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		0A9384132A0C94EB00889890 /* PhotoPreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +229,8 @@
 			children = (
 				0A9383D82A06F93300889890 /* ProfileVC.swift */,
 				0A9384042A0C929800889890 /* HomeVC.swift */,
+				0A9384112A0C94DC00889890 /* CameraVC.swift */,
+				0A9384132A0C94EB00889890 /* PhotoPreviewVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -441,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9383E42A0B563700889890 /* ViewController+Ext.swift in Sources */,
+				0A9384142A0C94EB00889890 /* PhotoPreviewVC.swift in Sources */,
 				0A9383C02A0601DB00889890 /* CustomTabBar.swift in Sources */,
 				0A9383912A0600BE00889890 /* ViewController.swift in Sources */,
 				0A9384012A0B5C9A00889890 /* ProfileVideoCell.swift in Sources */,
@@ -463,6 +470,7 @@
 				0A93838F2A0600BE00889890 /* SceneDelegate.swift in Sources */,
 				0A9383E62A0B564500889890 /* Extensions.swift in Sources */,
 				0A9383F02A0B56A600889890 /* Bundle-Decodable.swift in Sources */,
+				0A9384122A0C94DC00889890 /* CameraVC.swift in Sources */,
 				0A93840C2A0C936900889890 /* Utils.swift in Sources */,
 				0A93840E2A0C939500889890 /* Utils+AllControllers.swift in Sources */,
 			);
