@@ -7,7 +7,7 @@
 
 import UIKit
 
-class StoryMainCell: UICollectionViewCell {
+class StoryFirstCell: UICollectionViewCell {
     // MARK: - IBOutlets
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var profileIV: UIImageView!

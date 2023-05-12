@@ -44,6 +44,12 @@
 		0A93841A2A0C972D00889890 /* StoryMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384192A0C972D00889890 /* StoryMainCell.swift */; };
 		0A93841C2A0C973E00889890 /* StoryFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A93841B2A0C973E00889890 /* StoryFirstCell.xib */; };
 		0A93841E2A0C974B00889890 /* StoryMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A93841D2A0C974B00889890 /* StoryMainCell.xib */; };
+		0A9384232A0DA10700889890 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384222A0DA10700889890 /* User.swift */; };
+		0A9384252A0DA12500889890 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384242A0DA12500889890 /* Post.swift */; };
+		0A9384282A0DA17400889890 /* FirebaseUploadImageServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384272A0DA17400889890 /* FirebaseUploadImageServices.swift */; };
+		0A93842A2A0DA19E00889890 /* FirebasePostServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9384292A0DA19E00889890 /* FirebasePostServices.swift */; };
+		0A93842C2A0DA1BA00889890 /* FilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93842B2A0DA1BA00889890 /* FilePicker.swift */; };
+		0A93842E2A0DA23200889890 /* FileUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93842D2A0DA23200889890 /* FileUpload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +115,12 @@
 		0A9384192A0C972D00889890 /* StoryMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMainCell.swift; sourceTree = "<group>"; };
 		0A93841B2A0C973E00889890 /* StoryFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoryFirstCell.xib; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Cells&Xib/StoryFirstCell.xib"; sourceTree = "<group>"; };
 		0A93841D2A0C974B00889890 /* StoryMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoryMainCell.xib; path = "../../../../Downloads/video-journal-ios-main-4/video-journal/Cells&Xib/StoryMainCell.xib"; sourceTree = "<group>"; };
+		0A9384222A0DA10700889890 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0A9384242A0DA12500889890 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0A9384272A0DA17400889890 /* FirebaseUploadImageServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUploadImageServices.swift; sourceTree = "<group>"; };
+		0A9384292A0DA19E00889890 /* FirebasePostServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePostServices.swift; sourceTree = "<group>"; };
+		0A93842B2A0DA1BA00889890 /* FilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePicker.swift; sourceTree = "<group>"; };
+		0A93842D2A0DA23200889890 /* FileUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUpload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +169,8 @@
 		0A93838B2A0600BE00889890 /* videojournal */ = {
 			isa = PBXGroup;
 			children = (
+				0A9384262A0DA15900889890 /* WebServices */,
+				0A9384212A0DA0EB00889890 /* Models */,
 				0A9383F32A0B594400889890 /* Resources */,
 				0A9383D02A060A3E00889890 /* Cells&Xib */,
 				0A9383CF2A0609E200889890 /* Storyboards */,
@@ -297,6 +311,26 @@
 				0A93840D2A0C939500889890 /* Utils+AllControllers.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		0A9384212A0DA0EB00889890 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A9384222A0DA10700889890 /* User.swift */,
+				0A9384242A0DA12500889890 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A9384262A0DA15900889890 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				0A9384272A0DA17400889890 /* FirebaseUploadImageServices.swift */,
+				0A9384292A0DA19E00889890 /* FirebasePostServices.swift */,
+				0A93842B2A0DA1BA00889890 /* FilePicker.swift */,
+				0A93842D2A0DA23200889890 /* FileUpload.swift */,
+			);
+			path = WebServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,10 +477,12 @@
 				0A93841A2A0C972D00889890 /* StoryMainCell.swift in Sources */,
 				0A9384012A0B5C9A00889890 /* ProfileVideoCell.swift in Sources */,
 				0A9383E82A0B565700889890 /* String+Ext.swift in Sources */,
+				0A9384232A0DA10700889890 /* User.swift in Sources */,
 				0A9384072A0C92E000889890 /* HomeCell.swift in Sources */,
 				0A93838D2A0600BE00889890 /* AppDelegate.swift in Sources */,
 				0A9383EA2A0B566C00889890 /* UIColor+Ext.swift in Sources */,
 				0A9383DC2A0B55EB00889890 /* UIImageView+Extension.swift in Sources */,
+				0A93842E2A0DA23200889890 /* FileUpload.swift in Sources */,
 				0A9383C82A0604D400889890 /* Services.swift in Sources */,
 				0A9384052A0C929800889890 /* HomeVC.swift in Sources */,
 				0A9383F22A0B56B800889890 /* UserDefaults+Ext.swift in Sources */,
@@ -454,12 +490,16 @@
 				0A9383E02A0B561400889890 /* UIViewExt.swift in Sources */,
 				0A9383D92A06F93300889890 /* ProfileVC.swift in Sources */,
 				0A9383C22A0601FA00889890 /* CustomCollectionViewLayout.swift in Sources */,
+				0A9384252A0DA12500889890 /* Post.swift in Sources */,
+				0A93842C2A0DA1BA00889890 /* FilePicker.swift in Sources */,
+				0A93842A2A0DA19E00889890 /* FirebasePostServices.swift in Sources */,
 				0A9383DE2A0B560400889890 /* UIImage+Extensions.swift in Sources */,
 				0A9383E22A0B562500889890 /* UITableView+Ext.swift in Sources */,
 				0A9383C42A06045300889890 /* MTImagePickerManager.swift in Sources */,
 				0A9383EE2A0B568B00889890 /* Array+Ext.swift in Sources */,
 				0A93838F2A0600BE00889890 /* SceneDelegate.swift in Sources */,
 				0A9383E62A0B564500889890 /* Extensions.swift in Sources */,
+				0A9384282A0DA17400889890 /* FirebaseUploadImageServices.swift in Sources */,
 				0A9383F02A0B56A600889890 /* Bundle-Decodable.swift in Sources */,
 				0A9384122A0C94DC00889890 /* CameraVC.swift in Sources */,
 				0A93840C2A0C936900889890 /* Utils.swift in Sources */,
